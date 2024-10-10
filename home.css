@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  --color:#32cd32;
+}
+*{
+  margin:0;
+  padding:0;
+  }
+  body{
+    font-family: Montserrat,'times new roman';
+    background: black;
+    outline:none;
+    color: white ;
+  }
+  .head-section i{
+    padding: 10px;
+    color:var(--color);
+    font-size: 1.4em;
+  }
+  #nav-toggler{
+    margin-left:140px;
+  }
+  #navbar{
+  width:210px;
+  height: 720px;
+  position: fixed;
+  top:0;
+  left:150px;
+  background: black;
+  float:right;
+  box-shadow:0 0 16px black;
+  display: none;
+}
+#navbar h1{
+  font-family: Montserrat;
+  margin-left:150px;
+  padding: 20px;
+  color:var(--color);
+}
+.menu-item{
+  margin-top:60px;
+  padding: 20px;
+}
+.menu-item a{
+  color: var(--color);
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  margin-bottom:40px;
+  transition: .2s linear;
+}
+.menu-item a:hover{
+  color:var(--color);
+}
+.head-section span{
+  font-size:1.4em;
+  background: linear-gradient(white,var(--color));
+  background-clip: text;
+  color: transparent;
+  font-weight:700;
+}
+.hero{
+  padding: 10px;
+}
+.hero img{
+  width:350px;
+  float:right;
+}
+.hero p{font-size:20px;
+  margin-top:20px;
+  font-weight: 800;
+  color:var(--color);
+  text-transform: capitalize;
+}
+.hero span{
+  font-size:19px;
+  font-weight: 400;
+  line-height:15px;
+  color:white;
+}
+.hero button{
+  width:100px;
+  height: 40px;
+  background: var(--color);
+  color:black;
+  border-radius:10px;
+  text-decoration: none;
+  border:1px solid transparent;
+  display: block;
+  }
+  .box-container{
+    display: fle;
+    justify-content: center;
+    align-items: center;
+  }
+.box{
+  width:320px;
+ background:rgba(66, 68, 90, 1);
+ padding: 20px;
+ margin-bottom:10px;
+}  
+.box h3,.box p{
+  display: block;
+  text-align: center;
+}
+.box i{
+  color:var(--color);
+  font-size:2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
+.choice{
+  text-align: center;
+}
+.choice h3{
+  color:var(--color);
+  font-weight: bold;
+  font-size:25px;
+}
+.choice img{
+  width:300px;
+  margin-left:50px;
+}
+.course-container{
+  display: flex;
+  justify-content: center;
+}
+.courses h3{
+  text-align: center;
+  color: var(--color);
+  font-weight: bold;
+  font-size:25px;
+  margin-bottom:10px;
+}
+.course{
+  background: rgba(66, 68, 90, 1);
+  margin-bottom:10px;
+  padding: 10px;
+}
+.course i{
+  margin-left:20px;
+  color:white;
+  transition:150ms ease all;
+}
+.course  i:hover{
+  color:black;
+}
+.course iframe{
+  width:250px;
+  padding:20px;
+  padding-bottom: 0px;
+}
+.course a{
+  text-decoration: none;
+}
+.course a:hover{
+  color:var(--color);
+  outline: none;
+}
+.course h4{
+  color:var(--color);
+  margin-left: 20px;
+  padding: 8px;
+}
+.course h4 span{
+  overflow: hidden;
+  font-size:10px;
+  color:white;
+}
+.course button{
+  padding: 10px;
+  background: var(--color);
+  border-radius:20px;
+  border:none;
+  margin-left: 10px;
+}
+.tutor h3{
+  color:var(--color);
+  text-align:center;
+  font-weight:700;
+  font-size:28px;
+}
+.swiper {
+  width: 350px;
+  height: 300px;
+  background:rgba(66, 68, 90, 1);
+  margin-bottom:50px;
+  padding:10px;
+}
+.swiper pagination-bullet{
+  color:var(--color);
+  background: var(--color);
+}
+.tutor img{
+  width:300px;
+  padding:30px;
+  padding-top:20px;
+}
+.swiper-slide p{
+  color:var(--color);
+}
+.footer-container .box{
+  padding:20px;
+  background: black;
+  color: var(--color);
+  background: rgba(66, 68, 90, 1);
+}
+.footer-container .box h3{
+  color: white ;
+}
+.footer-container .box ul{
+  list-style-type: none;
+}
+.footer-container .box ul li a{
+  color:var(--color);
+  text-decoration: none;
+}
+.footer-container .box form input,
+button {
+    padding: 8px 15px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid black;
+}
+.footer-container .box form button {
+    background: var(--color);
+    color: black;
+    cursor: pointer;
+}
+footer{
+    background: black;
+    color:var(--color);
+}
